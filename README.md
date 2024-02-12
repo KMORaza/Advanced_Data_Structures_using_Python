@@ -1,4 +1,4 @@
-## Implementation of Major Advanced Data Structures using Python
+## Implementation of major Advanced Data Structures using Python
 
 
 ### Table of Contents
