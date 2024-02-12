@@ -1,80 +1,79 @@
 ## Implementation of Major Advanced Data Structures using Python
 
+
 ### Table of Contents
 
-1. [Balanced Parentheses Tree](#balanced-parentheses-tree)
-2. [Binary Heap](#binary-heap)
-3. [Binomial Heap](#binomial-heap)
-4. [Bloom Filter](#bloom-filter)
-5. [Burrows Wheeler Transform](#burrows-wheeler-transform)
-6. [Cayley Tree Enumeration](#cayley-tree-enumeration)
-7. [Centered Interval Tree](#centered-interval-tree)
-8. [Chordal Graphs Recognition](#chordal-graphs-recognition)
-9. [Concave Hull](#concave-hull)
-10. [Convex Hull](#convex-hull)
-11. [Count Min Sketch](#count-min-sketch)
-12. [D-Heap](#d-heap)
-13. [Directed Acyclic Word Graph](#directed-acyclic-word-graph)
-14. [Doubly Connected Edge List](#doubly-connected-edge-list)
-15. [Dynamic Link Cut Tree](#dynamic-link-cut-tree)
-16. [Dynamic Perfect Hashing](#dynamic-perfect-hashing)
-17. [Dynamic Range Median Query](#dynamic-range-median-query)
-18. [Elias Fano Encoding](#elias-fano-encoding)
-19. [Elliptic Curve Factorization](#elliptic-curve-factorization)
-20. [Exponential Search Tree](#exponential-search-tree)
-21. [Fat Node Tree](#fat-node-tree)
-22. [Fenwick Tree](#fenwick-tree)
-23. [Fibonacci Heap](#fibonacci-heap)
-24. [Fusion Tree](#fusion-tree)
-25. [Greedy Dual Tree](#greedy-dual-tree)
-26. [Hash Array Mapped Trie](#hash-array-mapped-trie)
-27. [Hash Chaining with Dynamic Perfect Hashing](#hash-chaining-with-dynamic-perfect-hashing)
-28. [HyperlogLog](#hyperloglog)
-29. [Implicit Graph](#implicit-graph)
-30. [Implicit Treap](#implicit-treap)
-31. [Interval Skip List](#interval-skip-list)
-32. [Interval Tree](#interval-tree)
-33. [Johnson's Algorithm for All Pair Shortest Path (APSP)](#johnsons-algorithm-for-all-pair-shortest-path-apsp)
-34. [KD Tree](#kd-tree)
-35. [Lazy Propagation Segment Tree](#lazy-propagation-segment-tree)
-36. [Locality Sensitive Hashing](#locality-sensitive-hashing)
-37. [Min Max Heap](#min-max-heap)
-38. [Multiple String Matching](#multiple-string-matching)
-39. [Octree](#octree)
-40. [Optimal Binary Search Tree](#optimal-binary-search-tree)
-41. [Pairing Heap](#pairing-heap)
-42. [Partial Persistence Heap](#partial-persistence-heap)
-43. [Persistent Linked List](#persistent-linked-list)
-44. [Priority Search Tree Geometric Intersection](#priority-search-tree-geometric-intersection)
-45. [Quad Tree](#quad-tree)
-46. [Randomized Incremental Construction](#randomized-incremental-construction)
-47. [Range Counting with Fractional Cascading](#range-counting-with-fractional-cascading)
-48. [Red-Black Tree](#red-black-tree)
-49. [Rolling Hash](#rolling-hash)
-50. [Rope](#rope)
-51. [Scapegoat Tree](#scapegoat-tree)
-52. [Segment Tree](#segment-tree)
-53. [Self Balancing Cartesian Tree](#self-balancing-cartesian-tree)
-54. [Shor Algorithm](#shor-algorithm)
-55. [Skip List with Reverse Pointer](#skip-list-with-reverse-pointer)
-56. [Sliding Window Tree](#sliding-window-tree)
-57. [Sparse Matrix](#sparse-matrix)
-58. [Succinct Data Structure](#succinct-data-structure)
-59. [Succinct Dynamic Dictionary](#succinct-dynamic-dictionary)
-60. [Suffix Automation](#suffix-automation)
-61. [Suffix Tree Clustering](#suffix-tree-clustering)
-62. [Tango Tree](#tango-tree)
-63. [Top K Query](#top-k-query)
-64. [Top Tree](#top-tree)
-65. [Treap](#treap)
-66. [Two-Level Radix Tree](#two-level-radix-tree)
-67. [Uniform Spanning Tree](#uniform-spanning-tree)
-68. [Van Emde Boas Tree](#van-emde-boas-tree)
-69. [Wavelet Tree](#wavelet-tree)
-70. [Weak AVL Tree](#weak-avl-tree)
-71. [Weight Balanced Tree](#weight-balanced-tree)
-72. [Weight Biased Leftist Tree](#weight-biased-leftist-tree)
-73. [XOR Linked List](#xor-linked-list)
-74. [Y Fast Trie](#y-fast-trie)
-
-
+1. Balanced Parentheses Tree
+2. Binary Heap
+3. Binomial Heap
+4. Bloom Filter
+5. Burrows Wheeler Transform
+6. Cayley Tree Enumeration
+7. Centered Interval Tree
+8. Chordal Graphs Recognition
+9. Concave Hull
+10. Convex Hull
+11. Count Min Sketch
+12. D-Heap
+13. Directed Acyclic Word Graph
+14. Doubly Connected Edge List
+15. Dynamic Link Cut Tree
+16. Dynamic Perfect Hashing
+17. Dynamic Range Median Query
+18. Elias Fano Encoding
+19. Elliptic Curve Factorization
+20. Exponential Search Tree
+21. Fat Node Tree
+22. Fenwick Tree
+23. Fibonacci Heap
+24. Fusion Tree
+25. Greedy Dual Tree
+26. Hash Array Mapped Trie
+27. Hash Chaining with Dynamic Perfect Hashing
+28. HyperlogLog
+29. Implicit Graph
+30. Implicit Treap
+31. Interval Skip List
+32. Interval Tree
+33. Johnson's Algorithm for All Pair Shortest Path (APSP)
+34. KD Tree
+35. Lazy Propagation Segment Tree
+36. Locality Sensitive Hashing
+37. Min Max Heap
+38. Multiple String Matching
+39. Octree
+40. Optimal Binary Search Tree
+41. Pairing Heap
+42. Partial Persistence Heap
+43. Persistent Linked List
+44. Priority Search Tree Geometric Intersection
+45. Quad Tree
+46. Randomized Incremental Construction
+47. Range Counting with Fractional Cascading
+48. Red-Black Tree
+49. Rolling Hash
+50. Rope
+51. Scapegoat Tree
+52. Segment Tree
+53. Self Balancing Cartesian Tree
+54. Shor Algorithm
+55. Skip List with Reverse Pointer
+56. Sliding Window Tree
+57. Sparse Matrix
+58. Succinct Data Structure
+59. Succinct Dynamic Dictionary
+60. Suffix Automation
+61. Suffix Tree Clustering
+62. Tango Tree
+63. Top K Query
+64. Top Tree
+65. Treap
+66. Two-Level Radix Tree
+67. Uniform Spanning Tree
+68. Van Emde Boas Tree
+69. Wavelet Tree
+70. Weak AVL Tree
+71. Weight Balanced Tree
+72. Weight Biased Leftist Tree
+73. XOR Linked List
+74. Y Fast Trie
